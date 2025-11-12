@@ -34,6 +34,13 @@ do hashtags to bucket the content
 max of one image in post or one 15 second video
 per user, max of 1000 posts a day
 
+Get Feed Endpoint:
+Following Feed: strictly posts from people you follow
+
+1.  Hit endpoint with pagination token
+2.  Go against the user's id which connwects to the foreign key of the follows
+    For You Feed: algorithmic approach that combines posts from followed and recommended by the system
+
 ## Initial Passthrough
 
-![alt text](image.png)
+![alt text](image-1.png)
